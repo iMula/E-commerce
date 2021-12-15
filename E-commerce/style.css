@@ -91,11 +91,15 @@ p{
 
 }
 
+.product-list h1{
+    text-align: center;
+}
+
 .product-list .card{
     background-color: #fff;
     border-radius: 10px;
     padding:1em;
-    box-shadow: 0px 10px 5px #ccfeff;
+    box-shadow: 0px 5px 5px black;
     text-align: center;
 }
 
@@ -127,6 +131,11 @@ p{
     color:limegreen;
 }
 
+.product-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 
 /*contact page css*/
